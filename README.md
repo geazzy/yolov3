@@ -22,3 +22,10 @@ pip install numpy argparse opencv-python Flask Pillow
 ```shell
 curl -X POST -F image=@test1.jpg 'http://localhost:5000/api/test' --output test.png
 ```
+
+## Clone repo
+```shell
+brew install git-lfs
+git lfs install
+git lfs clone git@github.com:geazzy/yolov3.git
+``` 
