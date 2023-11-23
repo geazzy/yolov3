@@ -15,12 +15,15 @@ Baseado no código de https://medium.com/analytics-vidhya/object-detection-using
 ## Bibliotecas
 
 ```shell
-pip install numpy argparse opencv-python Flask Pillow
+pip install numpy argparse opencv-python Flask Pillow  jsonpickle
+```
+```shell
+pipenv install -r requirements.txt
 ```
 ## Uso/Exemplos
 
 ```shell
-curl -X POST -F image=@test1.jpg 'http://localhost:5000/api/test' --output test.png
+curl -X POST -F image=@test1.jpg 'http://localhost:3000/api/test' --output test.png
 ```
 
 ## Clone repo
