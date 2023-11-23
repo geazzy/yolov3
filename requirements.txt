@@ -3,3 +3,4 @@ argparse
 opencv-python
 Flask
 Pillow
+jsonpickle
